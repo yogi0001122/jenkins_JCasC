@@ -4,7 +4,7 @@ credentials:
     - credentials:
       - usernamePassword:
           id: "git-user"
-          password: "Balboa59*"
+          password: ${GIT_REPO_PASSWORD}
           scope: GLOBAL
           username: "yogi0001122"
 jenkins:
