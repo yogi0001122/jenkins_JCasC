@@ -1,7 +1,7 @@
 // This is the base job that creates clones of the jobs listed above for each envionment.
 
-freeStyleJob('/create-environments-jobs') {
-  description('Create a new Folder for a Carnet Environment')
+freeStyleJob('/Seed-job') {
+  description('Create seed job to configure pipelines/jobs')
 
   scm {
     git {
