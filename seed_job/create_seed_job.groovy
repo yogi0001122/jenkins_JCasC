@@ -20,7 +20,7 @@ freeStyleJob('/create-environments-jobs') {
     }
   steps {
     dsl {
-      external 'create_enviornments_jobs.groovy'
+      external 'seed_job.groovy'
     }
   }
 }
